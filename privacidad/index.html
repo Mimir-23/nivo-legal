@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · NIVO</title>
+<meta name="description" content="Política de privacidad de NIVO, la app de finanzas personales.">
+<style>
+:root { color-scheme: light dark; --ink: #0D1B2A; --soft: #51637A; --line: #E3E8EE;
+  --bg: #F5F7FA; --card: #FFFFFF; --accent: #007A8A; }
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #F2F5F8; --soft: #A7B4C2; --line: #24364A; --bg: #0B1622;
+    --card: #11202F; --accent: #00D4E0; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; align-items: center; gap: 12px; margin-bottom: 28px; }
+header a { color: inherit; text-decoration: none; display: flex; align-items: center; gap: 10px;
+  font-weight: 700; letter-spacing: 0.04em; }
+.mark { width: 28px; height: 28px; color: var(--accent); }
+h1 { font-size: 34px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.01em; }
+.updated { color: var(--soft); margin: 0 0 28px; font-size: 15px; }
+section { background: var(--card); border-radius: 18px; padding: 20px 22px; margin: 0 0 14px;
+  border: 1px solid var(--line); }
+h2 { font-size: 19px; margin: 0 0 8px; }
+p { margin: 0 0 10px; }
+p:last-child { margin-bottom: 0; }
+p.item { padding-left: 16px; position: relative; }
+p.item::before { content: ""; position: absolute; left: 2px; top: 0.7em; width: 6px; height: 6px;
+  border-radius: 50%; background: var(--accent); }
+a { color: var(--accent); }
+nav { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+nav a { padding: 10px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--card);
+  text-decoration: none; font-weight: 600; font-size: 15px; }
+footer { color: var(--soft); font-size: 14px; margin-top: 32px; }
+.lead { font-size: 19px; color: var(--soft); margin: 0 0 24px; }
+</style>
+</head>
+<body>
+<main>
+<header><a href="../"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M2.1 6.4 L2.1 37.9 M2.1 6.4 L33.4 37.9 M33.4 37.9 L33.4 15.8 M2.1 37.9 L37.3 2.4 M28.9 2.4 L37.3 2.4 L37.3 10.7 M6.4 2.2 L29.5 25.0" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>NIVO</span></a></header>
+<h1>Política de privacidad</h1>
+<p class="updated">Última revisión: 24 de octubre de 2026</p>
+<section><h2>Resumen</h2>
+<p>NIVO recoge lo mínimo para funcionar: tu correo, para identificarte, y los datos financieros que tú escribes. No vendemos tus datos, no los compartimos con anunciantes, no hay publicidad ni analítica de terceros y no te seguimos entre apps ni sitios web.</p></section>
+<section><h2>Quién es el responsable</h2>
+<p>El responsable del tratamiento de tus datos es el equipo que desarrolla NIVO, que puedes contactar en <a href="mailto:nivo.soporte@gmail.com">nivo.soporte@gmail.com</a>. Esta política sigue la Ley 1581 de 2012 de protección de datos personales de Colombia.</p></section>
+<section><h2>Qué datos tratamos</h2>
+<p class="item">Identificación: tu dirección de correo y el identificador que crea el proveedor de acceso cuando entras con Apple o con Google. No recibimos tu contraseña de Apple ni de Google, y con Apple puedes ocultar tu correo.</p>
+<p class="item">Datos financieros que tú introduces: nombres y saldos de tus cuentas, tarjetas y créditos (con sus tasas, plazos y cuotas), movimientos, categorías, gastos fijos, metas de ahorro e inversiones, como los CDT.</p>
+<p class="item">Datos técnicos mínimos del servicio: registros de acceso al servidor necesarios para operarlo y detectar abusos.</p>
+<p>NIVO no accede a tus contactos, tu ubicación, tus fotos, tu micrófono ni a tus cuentas bancarias.</p></section>
+<section><h2>Lo que se queda en tu iPhone</h2>
+<p>Algunas cosas no salen nunca de tu dispositivo: tus preferencias (tema, nombre para Nivi, avisos), los recordatorios, que son notificaciones locales, y la copia de tus cifras que leen los widgets.</p>
+<p>Si activas el bloqueo con Face ID o Touch ID, lo comprueba iOS: NIVO nunca recibe tu cara ni tu huella, solo si la comprobación salió bien.</p></section>
+<section><h2>Para qué los usamos</h2>
+<p>Únicamente para prestarte el servicio: mostrarte tus cifras, calcular resúmenes, mantener tu sesión abierta y responder a tus atajos. No hacemos perfiles publicitarios ni decisiones automatizadas sobre ti.</p></section>
+<section><h2>Dónde se guardan y con quién</h2>
+<p>Tus datos se guardan en Supabase, nuestro proveedor de base de datos, que actúa como encargado del tratamiento con garantías de seguridad equivalentes a las nuestras. Sus servidores pueden estar fuera de Colombia: al usar NIVO autorizas esa transferencia, necesaria para prestarte el servicio.</p>
+<p>Cada fila está protegida por políticas de seguridad a nivel de fila: tu sesión solo puede leer y escribir tus propias filas. Todo viaja cifrado y los tokens de tu sesión se guardan en el Llavero de iOS.</p>
+<p>Apple y Google solo intervienen si entras con ellos, para confirmar quién eres. No compartimos tus datos financieros con nadie más.</p></section>
+<section><h2>Siri y Atajos</h2>
+<p>Los atajos de NIVO se ejecutan en tu dispositivo y hablan directamente con tu cuenta. Los nombres de tus cuentas, categorías, metas y gastos fijos se muestran en la app Atajos para que puedas elegirlos. Lo que le dices a Siri lo procesa Apple según su propia política de privacidad.</p>
+<p>Si creas una automatización de Apple Pay, Wallet le pasa al atajo el importe, el comercio y el nombre de la tarjeta, y NIVO anota esa compra como cualquier otro movimiento. No recibimos números de tarjeta.</p></section>
+<section><h2>Cuánto tiempo</h2>
+<p>Mientras tengas cuenta. Cuando la borras desde la app, se eliminan de forma inmediata y permanente todos tus datos asociados y, si entraste con Apple, se revoca el acceso de NIVO a tu Apple ID. Las copias de seguridad del proveedor rotan y expiran en un plazo máximo de 30 días.</p></section>
+<section><h2>Tus derechos</h2>
+<p>Puedes conocer, actualizar y rectificar tus datos desde la propia app, exportarlos en CSV desde Ajustes › Exportar mis datos y suprimirlos por completo desde Ajustes › Borrar mi cuenta, que también revoca tu autorización.</p>
+<p>Si prefieres ejercerlos por escrito, escribe a <a href="mailto:nivo.soporte@gmail.com">nivo.soporte@gmail.com</a>. Respondemos las consultas en un máximo de 10 días hábiles y los reclamos en 15, como dispone la ley. Si no quedas conforme, puedes acudir a la Superintendencia de Industria y Comercio.</p></section>
+<section><h2>Menores</h2>
+<p>NIVO no está dirigida a menores de 13 años y no recogemos datos de forma consciente de personas de esa edad.</p></section>
+<section><h2>Cambios</h2>
+<p>Si cambiamos esta política, actualizaremos la fecha de revisión y te lo avisaremos dentro de la app cuando el cambio sea sustancial.</p></section>
+<nav>
+<a href="../privacidad/">Privacidad</a>
+<a href="../terminos/">Condiciones de uso</a>
+<a href="../soporte/">Soporte</a>
+</nav>
+<footer>NIVO · Finanzas personales para iPhone y iPad</footer>
+</main>
+</body>
+</html>

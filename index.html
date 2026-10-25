@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NIVO · NIVO</title>
+<meta name="description" content="NIVO de NIVO, la app de finanzas personales.">
+<style>
+:root { color-scheme: light dark; --ink: #0D1B2A; --soft: #51637A; --line: #E3E8EE;
+  --bg: #F5F7FA; --card: #FFFFFF; --accent: #007A8A; }
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #F2F5F8; --soft: #A7B4C2; --line: #24364A; --bg: #0B1622;
+    --card: #11202F; --accent: #00D4E0; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; align-items: center; gap: 12px; margin-bottom: 28px; }
+header a { color: inherit; text-decoration: none; display: flex; align-items: center; gap: 10px;
+  font-weight: 700; letter-spacing: 0.04em; }
+.mark { width: 28px; height: 28px; color: var(--accent); }
+h1 { font-size: 34px; line-height: 1.15; margin: 0 0 6px; letter-spacing: -0.01em; }
+.updated { color: var(--soft); margin: 0 0 28px; font-size: 15px; }
+section { background: var(--card); border-radius: 18px; padding: 20px 22px; margin: 0 0 14px;
+  border: 1px solid var(--line); }
+h2 { font-size: 19px; margin: 0 0 8px; }
+p { margin: 0 0 10px; }
+p:last-child { margin-bottom: 0; }
+p.item { padding-left: 16px; position: relative; }
+p.item::before { content: ""; position: absolute; left: 2px; top: 0.7em; width: 6px; height: 6px;
+  border-radius: 50%; background: var(--accent); }
+a { color: var(--accent); }
+nav { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+nav a { padding: 10px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--card);
+  text-decoration: none; font-weight: 600; font-size: 15px; }
+footer { color: var(--soft); font-size: 14px; margin-top: 32px; }
+.lead { font-size: 19px; color: var(--soft); margin: 0 0 24px; }
+</style>
+</head>
+<body>
+<main>
+<header><a href=""><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M2.1 6.4 L2.1 37.9 M2.1 6.4 L33.4 37.9 M33.4 37.9 L33.4 15.8 M2.1 37.9 L37.3 2.4 M28.9 2.4 L37.3 2.4 L37.3 10.7 M6.4 2.2 L29.5 25.0" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>NIVO</span></a></header>
+<h1>NIVO</h1>
+
+<p class="lead">NIVO es una app para llevar tus finanzas personales: gastos, ingresos, gastos fijos, créditos, metas e inversiones como los CDT, con Siri y Atajos.</p>
+<section><h2>Documentos</h2><p>Aquí están la política de privacidad, las condiciones de uso y la página de soporte de la app.</p></section>
+<nav>
+<a href="privacidad/">Privacidad</a>
+<a href="terminos/">Condiciones de uso</a>
+<a href="soporte/">Soporte</a>
+</nav>
+<footer>NIVO · Finanzas personales para iPhone y iPad</footer>
+</main>
+</body>
+</html>
